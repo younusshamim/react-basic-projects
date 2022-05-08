@@ -16,13 +16,6 @@ const App = () => {
                 <img src={item.img} alt="" />
                 <h3 className="projectTitle">{item.projectTitle}</h3>
               </a>
-
-              <h4 className="github">
-                <a href={item.githubUrl} target="_blank" rel="noreferrer">
-                  <FaGithub style={{ marginRight: "5px" }} />
-                  GitHub
-                </a>
-              </h4>
             </div>
           ))}
         </div>
